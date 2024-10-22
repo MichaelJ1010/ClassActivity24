@@ -7,7 +7,7 @@ using namespace std;
 
 namespace customer {
 
-	void newCustomer() {
+	void newCustomer() { // asks customer to provide their id, name, and email for the struct
 		Customer customer;
 		string name;
 		string email;
