@@ -2,9 +2,10 @@
 #define PRINT_H
 
 #include "./newCustomer.hpp"
+#include "./customer.hpp"
 
 namespace printer {
-	void print(customer::Customer customer);
+	void print(structure::Customer customer);
 }
 
 #endif
